@@ -1,0 +1,5 @@
+这部分脚本实现了mapping部分的功能
+主要功能都在TapManager中
+另外的detactable是挂载在mapping阶段中可视化的骨骼小球以及手部小球上的，确保它们能被检测到，同时区分被点击的是landmark还是joint
+FreezeHandVisualize是用来在点击freeze按钮时将手部小球固定在原地的
+注意，这里的实现方法是在那一帧的手的位置复制小球，而不是把现有的小球定在原处。
